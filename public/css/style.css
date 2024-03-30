@@ -1,0 +1,37 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Square Peg', cursive;
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb),var(--bs-text-opacity))!important;
+}
+
+.slide{
+    height: 100vh;
+}
+.line{
+    width: 10%;
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb),var(--bs-text-opacity))!important;
+    height: 4px;
+ margin-left: auto;
+ margin-right: auto;
+}
+.doctor{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+}
+.nav-link , .active{
+    color: rgba(0, 68, 255, 0.575);
+}
+.client{
+    width: 70%;
+    height:30vh;
+}
+.bg-gray{
+    background-color: rgba(167, 180, 190, 0.692);
+}
+footer{
+    background: linear-gradient(rgba(0,0,0, 0.5),rgba(0,0,0, 0.5)) ,url(../IMAGES/bg\ footer.jpg);
+    background-position: center;
+    background-size: cover;
+}
